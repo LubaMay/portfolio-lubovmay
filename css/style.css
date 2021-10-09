@@ -82,6 +82,12 @@ strong {
 
 }
 
+.btn-git {
+    padding: .3em 1em;
+    min-width: 180px;
+    border: none;
+}
+
 .btn:hover {
     transform: scale(1.1);
 }
@@ -429,7 +435,7 @@ header {
 
 .my-work {
     background: var(--clr-dark);
-    color: var(--clr-light);var(--clr-dark);
+    color: var(--clr-light);
     text-align: center;
 }
 
@@ -444,13 +450,21 @@ header {
 }
 
 .portfolio__item {
-    /* background: var(--clr-accent);
-    overflow: hidden; */
     text-align: center;
     color: var(--clr-accent);
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
+
+.portfolio__item_git {
+    text-align: center;
+    color: var(--clr-dark);
+    text-decoration: none;
+}
+.portfolio__item_git > span {
+    vertical-align: middle;
+}
+
 .portfolio__item:hover {
     text-decoration: underline;
 }
